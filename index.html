@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhavesh Sharma</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bodies">
+    <div class="okbrochill">
+      <section>
+        <div id="canvas"></div>
+        <div id="first">
+          <div id="nav">
+            <dl>
+              <dd onmouseover="expandiv(0)" onmouseout="shrinkdiv(0)" >
+                <a href="#first" onclick="clickedmenu()" >HOME</a>
+                <div class="thunder"></div>
+              </dd>
+              <dd onmouseover="expandiv(1)" onmouseout="shrinkdiv(1)" >
+                <a href="#second" onclick="clickedmenu()">ABOUT</a>
+                <div class="thunder"></div>
+              </dd>
+              <dd onmouseover="expandiv(2)" onmouseout="shrinkdiv(2)" >
+                <a href="#third" onclick="clickedmenu()">EDUCATION</a>
+                <div class="thunder"></div>
+              </dd>
+              <dd onmouseover="expandiv(3)" onmouseout="shrinkdiv(3)" >
+                <a href="#fourth" onclick="clickedmenu()">SKILLS</a>
+                <div class="thunder"></div>
+              </dd>
+              <dd onmouseover="expandiv(4)" onmouseout="shrinkdiv(4)" >
+                <a href="#fifth" onclick="clickedmenu()">PROJECTS</a>
+                <div class="thunder"></div>
+              </dd>
+              <dd onmouseover="expandiv(5)" onmouseout="shrinkdiv(5)" >
+                <a href="#sixth" onclick="clickedmenu()">CONTACT US</a>
+                <div class="thunder"></div>
+              </dd>
+            </dl>
+          </div>
+          <div id="hero">
+            <h1>BHAVESH SHARMA</h1>
+            <h4>Full-Stack Developer</h4>
+          </div>
+        </div>
+        <div class="container1" onclick="clickedmenu(0)">
+          <div class="chevron"></div>
+          <div class="chevron"></div>
+          <div class="chevron"></div>
+        </div>
+      </section>
+      <section>
+        <div id="second">
+          <div id="picCard"></div>
+          <div id="info">
+            <p>
+              Hey, I'm Bhavesh Sharma, a full-stack developer passionate about
+              crafting awesome websites and applications. From creating sleek
+              user interfaces with HTML, CSS, and JavaScript to building robust
+              server-side solutions using Node.js and Python, I love turning
+              ideas into functional, user-friendly realities. With a knack for
+              problem-solving and a commitment to clean, efficient code, I
+              thrive in collaborative environments. Let's connect and bring your
+              digital projects to life!
+            </p>
+          </div>
+        </div>
+        
+      </section>
+      <section>
+        <div id="third">
+          <div class="contained">
+            <div class="div-transform">
+              <div class="card card-1">
+                <h2>Metric</h2>
+                <p>S.S High School</p>
+                <h4>Read More ➡</h4>
+              </div>
+              <div class="card card-2">
+                <h2>Jr. College</h2>
+                <p>S.S High School & Jr. College</p>
+                <h4>Read More ➡</h4>
+              </div>
+              <div class="card card-3">
+                <h2>University</h2>
+                <p>Maharshi Dayanand Saraswati University</p>
+                <h4>Read More ➡</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="fourth">
+          <div class="container-skill">
+            <div class="perspective" id="perspective"> 
+                <div class="cards cards-1">
+                    <h5>JavaScript</h5>
+                </div>
+                <div class="cards cards-2">
+                    <h5>Core Java</h5>
+                </div>
+                <div class="cards cards-3">
+                    <h5>MySQL</h5>
+                </div>
+                <div class="cards card-4">
+                    <h5>React JS</h5>
+                </div>
+                <div class="cards card-5">
+                    <h5>Express JS</h5>
+                </div>
+                <div class="cards card-6">
+                    <h5>C++</h5>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="fifth" >
+          <div style="height: 4rem ;">
+            </div>       
+            <div class="project-container" onmouseleave="fun()">
+              <div class="Projectcard" id="card1">
+                <div class="img-container"></div>
+              </div>
+              <div class="Projectcard" id="card2">
+                <div class="img-container"></div>
+              </div>
+              <div class="Projectcard" id="card3">
+                <div class="img-container"></div>
+              </div>
+              <div class="Projectcard" id="card4">
+                <div class="img-container"></div>
+              </div>
+              <div class="larger-card" id="largerCard"></div>    
+            </div>
+        </div>
+      </section>
+      <section>
+        <div id="sixth">
+          <div class="contact-container">
+            <form class="form">
+              <table class="table">
+                <tr>
+                  <td>NAME</td>
+                  <th><input type = "text"/></th>
+                </tr>
+                <tr>
+                  <td>SURNAME</td>
+                  <th><input type = "text"/></th>
+                </tr>
+                <tr>
+                  <td>EMAIL</td>
+                  <th><input type = "email"/></th>
+                </tr>
+                <tr>
+                  <td>MESSAGE</td>
+                  <th><textarea></textarea></th>
+                </tr>
+              </table>
+            </form>
+            <div class="submit">
+              <p>Ready To Send ...</p>
+              <button> SEND </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js"></script>
+  <script src="rocket.js" type="module"></script>
+  <script src = "script1.js"></script>
+  <script src="card.js"></script>
+</html>
