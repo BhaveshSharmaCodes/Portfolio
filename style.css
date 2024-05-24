@@ -27,7 +27,7 @@ body{
     box-sizing: border-box;
     overflow: hidden;
     scroll-behavior: smooth;
-    background :url('pics/poly.jpg');
+    background :url('poly.jpg');
     background-repeat: no-repeat;
     background-size: 100% 110%;
     color: lightgrey;
