@@ -1,16 +1,16 @@
 @font-face{
     font-family: 'knight'; /* Choose a name for your font */
-    src:url('pics/KnightWarrior-w16n8.otf');
+    src:url('KnightWarrior-w16n8.otf');
 }
 
 @font-face{
     font-family: 'dragon'; /* Choose a name for your font */
-    src:url('pics/DragonHunter-9Ynxj.otf');
+    src:url('DragonHunter-9Ynxj.otf');
 }
 
 @font-face{
     font-family: 'bird'; /* Choose a name for your font */
-    src:url('pics/DeathStar-VmWB.ttf');
+    src:url('DeathStar-VmWB.ttf');
 }
 
 .okbrochill::-webkit-scrollbar {
